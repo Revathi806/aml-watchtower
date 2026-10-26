@@ -1,0 +1,2 @@
+Run syntax check: python -m compileall app scripts
+Database integration checks require a configured DATABASE_URL and initialized schema.
