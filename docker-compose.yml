@@ -39,7 +39,7 @@ services:
       redis: {condition: service_started}
   frontend:
     build: ./frontend
-    ports: ["3000:80"]
+    ports: ["80:80"]
     depends_on: [api]
   airflow:
     image: apache/airflow:2.9.3-python3.11
